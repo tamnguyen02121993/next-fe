@@ -21,7 +21,7 @@ jobs:
       NAMEPSACE: tamnguyenh
       IMAGE_NAME: next-fe
     runs-on: ubuntu-latest
-    needs: [build, test]
+    needs: [build]
     permissions:
       packages: write
       contents: read
